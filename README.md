@@ -1,2 +1,2 @@
-# playstation-store
-projeto teste com HMTL e CSS puro
+# PlayStation Store
+🟡 Projeto teste com HMTL e CSS puro 🚧
