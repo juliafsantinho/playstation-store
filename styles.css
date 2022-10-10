@@ -154,8 +154,8 @@ h4 {
 }
 
 .add-cart img {
-    height: 45px;
-    width: 45px;
+    height: 100%;
+    width: 100%;
 }
 
 .social-links {
@@ -183,6 +183,18 @@ h4 {
         width: 100vw;
         height: 100vh;
         border-radius: 0%;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+    }
+    
+    .column-2 {
+        margin-bottom: 30px;
+    }
+
+    .color-box{
+        transform: translateX(70px);
     }
 
     #menu-list {
