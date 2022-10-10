@@ -186,6 +186,15 @@ h4 {
     cursor: pointer;
 }
 
+.social {
+    transition: all 0.2s ease-in-out;
+}
+
+.social:hover {
+    height: 30px;
+    cursor: pointer;
+}
+
 .menu-icon {
     width: 25px;
     margin-right: 15px;
