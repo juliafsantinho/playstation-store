@@ -95,7 +95,7 @@ h3 {
     content: "";
     width: 10px;
     height: 57%;
-    background: linear-gradient(90deg, rgba(249, 54, 54, 0.9514180672268907) 0%, rgba(251, 82, 104, 0.9570203081232493) 100%);
+    background: linear-gradient(0deg, rgba(249,54,54,1) 41%, rgba(255,186,195,1) 100%);
     position: absolute;
     left: -40px;
     top: 8px;
@@ -115,8 +115,7 @@ h4 {
     color: #fff;
     border-radius: 6px;
     cursor: pointer;
-    background: rgb(249, 54, 54);
-    background: linear-gradient(90deg, rgba(249, 54, 54, 0.9514180672268907) 0%, rgba(251, 82, 104, 0.9570203081232493) 100%);
+    background: linear-gradient(90deg, rgba(249,54,54,0.9514180672268907) 0%, rgba(247,130,146,0.9570203081232493) 100%);
     z-index: 2;
 }
 
@@ -135,8 +134,7 @@ h4 {
     position: absolute;
     right: 0;
     top: 0;
-    background: rgb(249, 54, 54);
-    background: linear-gradient(90deg, rgba(249, 54, 54, 0.9514180672268907) 0%, rgba(251, 82, 104, 0.9570203081232493) 100%);
+    background: linear-gradient(0deg, rgba(249,54,54,1) 41%, rgba(255,186,195,1) 100%);
     height: 100%;
     width: 80%;
     border-radius: 20px 0 0 20px;
@@ -156,6 +154,7 @@ h4 {
 .add-cart img {
     height: 100%;
     width: 100%;
+    max-width: 55px;
 }
 
 .social-links {
@@ -183,6 +182,7 @@ h4 {
         width: 100vw;
         height: 100vh;
         border-radius: 0%;
+        overflow-y: auto;
     }
 
     .row {
@@ -191,6 +191,19 @@ h4 {
     
     .column-2 {
         margin-bottom: 30px;
+    }
+
+    h2{
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+    .column-1 p {
+        font-size: 15px;
     }
 
     .color-box{
