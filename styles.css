@@ -145,6 +145,7 @@ h4 {
 .controller {
     width: 90%;
     z-index: 2;
+    animation: moveController 2s infinite alternate ease-in-out;
 }
 
 .color-box {
@@ -263,6 +264,14 @@ h4 {
     .nav-li {
         display: block;
         margin-top: 5px;
+    }
+
+}
+
+@keyframes moveController {
+
+    from {
+        transform: translate(-5%, -5%) rotate(-5deg);
     }
 
 }
