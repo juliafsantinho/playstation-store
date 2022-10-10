@@ -7,8 +7,7 @@
 }
 
 body {
-    background: rgb(0, 149, 255);
-    background: linear-gradient(90deg, rgba(0, 149, 255, 1) 0%, rgba(251, 82, 104, 1) 100%);
+    background: linear-gradient(90deg, rgba(130, 169, 247, 0.9570203081232493) 0%, rgba(249, 54, 54, 0.9514180672268907) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +57,7 @@ li {
 }
 
 .nav-link:hover {
-    color: #fb5268;
+    color: #f93636;
 }
 
 .row {
@@ -95,7 +94,7 @@ h3 {
     content: "";
     width: 10px;
     height: 57%;
-    background: linear-gradient(0deg, rgba(249,54,54,1) 41%, rgba(255,186,195,1) 100%);
+    background: linear-gradient(0deg, rgba(249, 54, 54, 1) 41%, rgba(255, 186, 195, 1) 100%);
     position: absolute;
     left: -40px;
     top: 8px;
@@ -115,7 +114,7 @@ h4 {
     color: #fff;
     border-radius: 6px;
     cursor: pointer;
-    background: linear-gradient(90deg, rgba(249,54,54,0.9514180672268907) 0%, rgba(247,130,146,0.9570203081232493) 100%);
+    background: linear-gradient(90deg, rgba(249, 54, 54, 0.9514180672268907) 0%, rgba(247, 130, 146, 0.9570203081232493) 100%);
     z-index: 2;
 }
 
@@ -134,7 +133,8 @@ h4 {
     position: absolute;
     right: 0;
     top: 0;
-    background: linear-gradient(0deg, rgba(249,54,54,1) 41%, rgba(255,186,195,1) 100%);
+    
+ background: linear-gradient(0deg, rgba(249, 54, 54, 1) 41%, rgba(255, 186, 195, 1) 100%);
     height: 100%;
     width: 80%;
     border-radius: 20px 0 0 20px;
